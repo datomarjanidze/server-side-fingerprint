@@ -1,4 +1,4 @@
-## Server Side Fingerprinting v1.0.1 Documentation
+## Server Side Fingerprinting v1.0.2 Documentation
 
 <p align="center">
   <a href="https://www.npmjs.com/package/server-side-fingerprint" target="_blank"><img src="https://img.shields.io/npm/v/server-side-fingerprint.svg" alt="NPM Version" /></a>
@@ -109,6 +109,8 @@ operating system's data that looks like this:
 ### Usage example
 
 ```ts
+import { generateFingerprint } from 'server-side-fingerprint'
+
 const fingerprint = generateFingerprint()
 console.log(fingerprint) // 'a923cd82ad685819e1bcbd3acbab179f'
 ```
