@@ -1,4 +1,4 @@
-## Server Side Fingerprinting v1.0.2 Documentation
+## Server Side Fingerprinting v1.0.3 Documentation
 
 <p align="center">
   <a href="https://www.npmjs.com/package/server-side-fingerprint" target="_blank"><img src="https://img.shields.io/npm/v/server-side-fingerprint.svg" alt="NPM Version" /></a>
