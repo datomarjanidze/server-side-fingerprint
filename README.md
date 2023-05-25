@@ -115,6 +115,6 @@ console.log(fingerprint) // 'a923cd82ad685819e1bcbd3acbab179f'
 
 ### API
 
-#### generateFingerprint
+#### generateFingerprint()
 
 - Returns: `string`
