@@ -1,5 +1,4 @@
 import { createHash } from 'node:crypto'
-import { writeFileSync } from 'node:fs'
 import {
   EOL,
   availableParallelism,
@@ -21,7 +20,6 @@ import {
   type UserInfo,
   version
 } from 'node:os'
-import { join } from 'node:path'
 
 class ServerSideFingerprint {
   generateFingerprintData(): string {
