@@ -9,8 +9,6 @@ import {
   homedir,
   hostname,
   machine,
-  networkInterfaces,
-  type NetworkInterfaceInfo,
   platform,
   release,
   tmpdir,
@@ -33,7 +31,6 @@ class ServerSideFingerprint {
       homedir: this.getHomedir(),
       hostname: this.getHostname(),
       machine: this.getMachine(),
-      networkInterfaces: this.getNetworkInterfaces(),
       platform: this.getPlatform(),
       release: this.getRelease(),
       tmpdir: this.getTmpdir(),
@@ -81,10 +78,6 @@ class ServerSideFingerprint {
 
   private getMachine(): string {
     return machine()
-  }
-
-  private getNetworkInterfaces(): NodeJS.Dict<NetworkInterfaceInfo[]> {
-    return networkInterfaces()
   }
 
   private getPlatform(): string {

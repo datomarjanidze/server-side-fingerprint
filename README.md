@@ -1,4 +1,4 @@
-## Server Side Fingerprinting v1.0.4 Documentation
+## Server Side Fingerprinting v1.0.5 Documentation
 
 <p align="center">
   <a href="https://www.npmjs.com/package/server-side-fingerprint" target="_blank"><img src="https://img.shields.io/npm/v/server-side-fingerprint.svg" alt="NPM Version" /></a>
@@ -69,27 +69,6 @@ operating system's data that looks like this:
   "homedir": "/Users/datomarjanidze",
   "hostname": "Datos-MacBook-Air.local",
   "machine": "arm64",
-  "networkInterfaces": {
-    "lo0": [
-      {
-        "address": "127.0.0.1",
-        "netmask": "255.0.0.0",
-        "family": "IPv4",
-        "mac": "00:00:00:00:00:00",
-        "internal": true,
-        "cidr": "127.0.0.1/8"
-      },
-      {
-        "address": "::1",
-        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
-        "family": "IPv6",
-        "mac": "00:00:00:00:00:00",
-        "internal": true,
-        "cidr": "::1/128",
-        "scopeid": 0
-      }
-    ]
-  },
   "platform": "darwin",
   "release": "23.1.0",
   "tmpdir": "/var/folders/9w/gl_7whfjvxw7h3ftnvz48s3c0000gn/T",
