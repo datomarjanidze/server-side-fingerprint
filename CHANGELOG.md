@@ -1,3 +1,7 @@
+# 1.3.0 (2023-05-27)
+
+Add API functions' descriptions.
+
 # 1.2.0 (2023-05-27)
 
 Add types in the documentation.
