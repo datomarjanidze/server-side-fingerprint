@@ -1,4 +1,4 @@
-## Server Side Fingerprint v1.1.0 Documentation
+## Server Side Fingerprint v1.2.0 Documentation
 
 <p align="center">
   <a href="https://www.npmjs.com/package/server-side-fingerprint" target="_blank"><img src="https://img.shields.io/npm/v/server-side-fingerprint.svg" alt="NPM Version" /></a>
@@ -12,6 +12,7 @@
 - [Description](#Description)
 - [Usage example](#Usage-example)
 - [API](#API)
+  - [Types](#Types)
   - [generateFingerprint](#generateFingerprint)
 
 ### Installation
@@ -96,6 +97,37 @@ console.log(fingerprint) // 'a923cd82ad685819e1bcbd3acbab179f'
 
 ### API
 
+#### Types
+
+```ts
+import { UserInfo, CpuInfo } from 'node:os'
+
+interface FingerprintData {
+  EOL: string
+  availableParallelism: number
+  arch: string
+  cpuInfo: CpuPartialInfo[]
+  devNull: string
+  endianness: string
+  homedir: string
+  hostname: string
+  machine: string
+  platform: string
+  release: string
+  tmpdir: string
+  totalmem: number
+  type: string
+  userInfo: UserInfo<string>
+  version: string
+}
+
+type CpuPartialInfo = Pick<CpuInfo, 'model' | 'speed'>
+```
+
 #### generateFingerprint()
 
 - Returns: `string`
+
+#### generateFingerprintData()
+
+- Returns: `FingerprintData`

@@ -1,3 +1,7 @@
+# 1.2.0 (2023-05-27)
+
+Add types in the documentation.
+
 # 1.1.0 (2023-05-27)
 
 Refactor the library.
