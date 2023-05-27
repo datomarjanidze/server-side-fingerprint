@@ -1,6 +1,6 @@
 {
   "name": "server-side-fingerprint",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Node.js library for generating server-side MD5 fingerprint hash from the operating system's data.",
   "main": "dist/server-side-fingerprint.cjs.js",
   "module": "dist/server-side-fingerprint.esm.js",
