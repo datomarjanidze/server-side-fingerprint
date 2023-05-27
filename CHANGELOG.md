@@ -1,3 +1,7 @@
+# 1.4.0 (2023-05-27)
+
+Add function descriptions in the source files.
+
 # 1.3.0 (2023-05-27)
 
 Add API functions' descriptions.

@@ -41,6 +41,11 @@ export interface FingerprintData {
 
 export type CpuPartialInfo = Pick<CpuInfo, 'model' | 'speed'>
 
+/**
+ * @description Generates the data that is used for fingerprint
+ * creation.
+ * @returns Fingerprint JSON data.
+ */
 export function generateFingerprintData(): FingerprintData {
   return {
     EOL,
@@ -65,6 +70,10 @@ export function generateFingerprintData(): FingerprintData {
   }
 }
 
+/**
+ * @description Generates the fingerprint.
+ * @returns The fingerprint string.
+ */
 export function generateFingerprint(): string {
   return createHash('md5')
     .update(JSON.stringify(generateFingerprintData()))

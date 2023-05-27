@@ -1,4 +1,4 @@
-## Server Side Fingerprint v1.3.0 Documentation
+## Server Side Fingerprint v1.4.0 Documentation
 
 <p align="center">
   <a href="https://www.npmjs.com/package/server-side-fingerprint" target="_blank"><img src="https://img.shields.io/npm/v/server-side-fingerprint.svg" alt="NPM Version" /></a>
@@ -128,7 +128,7 @@ type CpuPartialInfo = Pick<CpuInfo, 'model' | 'speed'>
 
 - Returns: `string`
 
-Generates the unique fingerprint.
+Generates the fingerprint.
 
 #### generateFingerprintData()
 
