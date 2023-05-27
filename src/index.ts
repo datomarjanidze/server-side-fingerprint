@@ -47,6 +47,8 @@ export type CpuPartialInfo = Pick<CpuInfo, 'model' | 'speed'>
  * @returns Fingerprint JSON data.
  */
 export function generateFingerprintData(): FingerprintData {
+  const _userInfo = userInfo()
+
   return {
     EOL,
     availableParallelism: availableParallelism(),
@@ -65,7 +67,13 @@ export function generateFingerprintData(): FingerprintData {
     tmpdir: tmpdir(),
     totalmem: totalmem(),
     type: type(),
-    userInfo: userInfo(),
+    userInfo: {
+      username: _userInfo.username,
+      uid: _userInfo.uid,
+      gid: _userInfo.gid,
+      shell: _userInfo.shell,
+      homedir: _userInfo.homedir
+    },
     version: version()
   }
 }

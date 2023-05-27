@@ -1,3 +1,10 @@
+# 1.5.0 (2023-05-27)
+
+Increasing fingerprint stability by making sure that the user
+properties are in the same order every time because the properties'
+order might change for some unexpected reason, and the fingerprint will
+break.
+
 # 1.4.0 (2023-05-27)
 
 Add function descriptions in the source files.
