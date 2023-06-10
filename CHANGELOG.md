@@ -1,3 +1,7 @@
+# 1.6.0 (2023-06-10)
+
+Remove the downloads tag from `README.md`.
+
 # 1.5.0 (2023-05-27)
 
 Increasing fingerprint stability by making sure that the user
