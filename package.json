@@ -5,7 +5,7 @@
   "main": "dist/server-side-fingerprint.cjs.js",
   "module": "dist/server-side-fingerprint.esm.js",
   "types": "dist/server-side-fingerprint.d.ts",
-  "author": "Dato Marjanidze <datomarjanidze10@gmail.com>",
+  "author": "Dato Marjanidze",
   "license": "ISC",
   "homepage": "https://github.com/datomarjanidze/server-side-fingerprint#readme",
   "files": [
